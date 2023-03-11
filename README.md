@@ -37,7 +37,7 @@
 # 📖 [Aishatu-Gobir-Inaugural-Lecture] <a name="about-project"></a>
 
 
-**[Aishatu-Gobir-Inaugural-Lecture]** is a capstone project to fulfil the requirement for the completion of Module One of Full Stack Web Developement Program at Microverse Inc. This project features the main lecture as well as keynote speakers for the 219th Inaugural Lecture at the University of Ilorin, Ilorin, Nigeria.
+**[Aishatu-Gobir-Inaugural-Lecture](https://bestbynature.github.io/Aishatu-Gobir-Inaugural-Lecture/)** is a capstone project to fulfil the requirement for the completion of Module One of Full Stack Web Developement Program at Microverse Inc. This project features the main lecture as well as keynote speakers for the 219th Inaugural Lecture at the University of Ilorin, Ilorin, Nigeria.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -69,7 +69,6 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
 
 - [Aishatu-Gobir-Inaugural-Lecture](https://bestbynature.github.io/Aishatu-Gobir-Inaugural-Lecture/)
 
@@ -131,9 +130,6 @@ Install this project with:
 
 To run the project, execute the following command:
 
-
-Example command:
-
 ```sh
   use git bash to open in Vs code
 ```
@@ -143,8 +139,6 @@ Example command:
 
 To run tests, run the following command:
 
-
-Example command:
 
 ```sh
 Run "npx hint ." 
@@ -163,8 +157,6 @@ You can deploy this project using:
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
 
 👤 **Author1**
 
@@ -200,8 +192,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
 If you like this project, kindly drop a star for me.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -209,8 +199,6 @@ If you like this project, kindly drop a star for me.
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
 
 I would like to use this medium to appreciate [Cindy Shin in Benance](https://www.behance.net/adagio07) for putting up the original design idea.
 
