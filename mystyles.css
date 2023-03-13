@@ -6,4 +6,273 @@
 
 body {
   font-family: 'Lato', sans-serif;
+  background-image: url(./Assets/Texture-web.png);
+}
+
+.first-line ul {
+  background-color: gray;
+  color: #fff;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.4rem 10% 0.4rem 0;
+
+}
+
+.first-line ul li {
+  display: inline;
+  margin-right: 2%;
+  font-size: 0.8rem;
+}
+
+ .second-line {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: .5rem 0;
+}
+
+.second-line nav ul li {
+  display: inline-block;
+  margin-right: 3rem;
+  font-size: 0.7rem;
+}
+
+.second-line nav ul li a {
+  text-decoration: none;
+  color: gray
+}
+
+#about {
+  color: #ec5242;
+}
+
+#campaign {
+  text-align: center;
+  color: #ec5242;
+  border: 4px solid #ec5242;
+  padding: 0.4rem;
+  margin-left: 50px;
+}
+
+
+.logo-img {
+  margin: 0 0 0 5%;
+  height: 3rem;
+}
+
+header {
+  display: none;
+}
+
+.mobile-header {
+  height: 20vh;
+  padding: 2rem;
+  background-image: url(./Assets/mobile-hd-bg.jpg);
+  background-size: cover;
+  filter: grayscale(100%);
+  opacity: 30%;
+}
+
+.fa-bars {
+  font-size: 3rem;
+  color: rgba(0, 0, 0, 0.95);
+  position: absolute;
+  z-index: 5;
+  top: 1.5rem;
+  left: 2rem;
+}
+
+.lecture-title {
+  padding: 0.5rem 1.2rem 5rem 1.2rem;
+  /* background-image: url(./Assets/background-pattern2.jpeg); */
+  /* background-color: rgba(128, 128, 128, 0.2) */
+  background-color: #e9ecef;
+}
+
+.title1 {
+  color: #ec5242;
+  font-size: 1.5rem;
+}
+
+.lecture-title h1 {
+  color: #ec5242;
+  font-size: 1.8rem;
+  font-family: 'Arial black';
+  line-height: 2rem;
+  margin-top: 0.8rem;
+  background-image: url(./Assets/title-logo.jpg);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.title2 {
+  margin: 2rem 0;
+  border: 4px solid white;
+  padding: 1.5rem;
+  word-spacing: 5px;
+  background-color: #e9ecef;
+  color: #272A31;
+  line-height: 1.7rem;
+}
+
+.lecture-title h2 {
+  color: #272A31;
+  font-weight: 900;
+  font-size: 1.58rem;
+  margin-bottom: 1rem;
+}
+
+.title3 {
+  font-size: 1.3rem;
+  color: gray;
+}
+
+.program-black {
+  height: auto;
+  background: url(./Assets/program-bg-1.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem 1rem 3.5rem 1rem;
+}
+
+.program-black h2 {
+  color: #fff;
+}
+
+.short-rule {
+  width: 15%;
+  border: 1px solid #ec5242;
+  margin: 1rem auto 1rem auto;
+}
+
+.fa-podium-star {
+  border: 2px solid red;
+  color: #fff;
+  padding: 15px;
+  font-size: 5rem;
+}
+
+.icon-size {
+  width: 50px;
+  height: 50px;
+}
+
+.program-card {
+  background-color: rgb(60, 63, 70, 0.5);
+  border: 3px solid rgb(60, 63, 70);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+  margin-bottom: 0.8rem;
+}
+
+.program-card h3 {
+  color: rgb(255, 81, 42);
+  width: 30%;
+}
+
+.program-black p {
+  color: rgb(221, 223, 224);
+  font-size: 1rem;
+  width: 50%;
+  line-height: 1.7rem;
+}
+
+#join {
+  width: 80%;
+  background-color: #ec5242;
+  color: #fff;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+.speakers {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.speakers h2 {
+color: rgb(38, 39, 46);
+}
+
+.speaker-card {
+  display: flex;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.speaker-img {
+  flex-basis: 35%;
+  margin-right: 1rem;
+}
+
+.speaker-img img {
+  width: 100%;
+}
+
+.speaker-info {
+  flex-basis: 65%;
+}
+
+.speaker-info h3 {
+  color: #272A31;
+  font-size: 1.2rem;
+}
+
+.speaker-info h4 {
+  color: #ec5242;
+  font-size: 0.8rem;
+}
+
+.speaker-info hr {
+  width: 10%;
+  margin: 0.8rem 0 1.2rem 0;
+}
+
+.speaker-info h5 {
+  font-size: 0.8rem;
+  color: rgb(70, 70, 70)
+}
+
+
+#more {
+  width: 100%;
+  padding: 0.7rem 0 0.7rem 0;
+  margin: 1rem 0 2rem 0;
+  border: 2px solid #d3d3d3;
+  color: gray;
+  background-color: #fff;
+}
+
+.fa-angle-down {
+  margin-left: 1rem;
+  color: #ec5242;
+}
+
+/* Modification for the about page */
+
+
+@media only screen and (min-width: 768px) {
+  header {
+    display: block;
+  }
+
+  .fa-bars {
+    display: none;
+    visibility: hidden;
+  }
 }
