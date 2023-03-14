@@ -109,17 +109,11 @@ function generator(num) {
 
   speakerInfo.append(speakerName, speakerDesig, rule, speakermileStone);
 
-  // const leftRight = document.createElement('div')
-  // leftRight.className='left-right'
   speakers.appendChild(leftRight);
 
   if (num <= 2) {
-    // const leftDiv = document.createElement("div")
-    // leftDiv.className = 'left-div'
     leftDiv.appendChild(speakerCard);
   } else {
-    // const rightDiv = document.createElement("div")
-    // rightDiv.className = 'right-div'
     rightDiv.appendChild(speakerCard);
   }
 }
@@ -134,7 +128,7 @@ moreButton.addEventListener('click', () => {
   speakers.appendChild(title);
 
   const shortRule = document.createElement('hr');
-  shortRule.className = 'short-rule';
+  shortRule.className = 'short-rule hide';
   speakers.appendChild(shortRule);
 
   for (let i = 0; i < speakerarr.length; i += 1) {
