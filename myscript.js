@@ -20,7 +20,7 @@ close.addEventListener('click', () => {
 const speakerarr = [
   {
     id: 1,
-    image: './assets/keynote_1.jpeg',
+    image: './Assets/keynote_1.jpeg',
     name: 'Yochai Benkler',
     designation: 'Berkman Professor of Enterpreneurial Legal Studies at Harvard Law School',
     milestone: 'Benkler studies commons-based peer production and published his seminal book: The Wealth of Networks in 2006.',
@@ -28,7 +28,7 @@ const speakerarr = [
 
   {
     id: 2,
-    image: './assets/keynote_2.jpeg',
+    image: './Assets/keynote_2.jpeg',
     name: 'SohYeong Noh',
     designation: 'Director of Art center, Nabi, and a board member of CC Korea',
     milestone: 'Asthe main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.',
@@ -36,7 +36,7 @@ const speakerarr = [
 
   {
     id: 3,
-    image: './assets/keynote_3.jpeg',
+    image: './Assets/keynote_3.jpeg',
     name: 'Lila Tretikov',
     designation: 'Executive Director of the wikimedia foundation',
     milestone: 'Lila Tretikov is the Executive Director of the wikimedia foundation, the non-profit organisation that operates Wikipedia. Wikipedia is freely available in 290 languages and used by nearly half a billion people around the world every month.',
@@ -44,7 +44,7 @@ const speakerarr = [
 
   {
     id: 4,
-    image: './assets/keynote_4.jpeg',
+    image: './Assets/keynote_4.jpeg',
     name: 'Kilnam Chon',
     designation: '',
     milestone: 'Kilnam Chon helped bring the internet to Asia and is an outspoken advocate for the open web and digital commons. in 2012, he was inducted into the inaugural class of the internet society\'s (iSOC) Internet Hall of fame.',
@@ -52,7 +52,7 @@ const speakerarr = [
 
   {
     id: 5,
-    image: './assets/keynote_5.jpeg',
+    image: './Assets/keynote_5.jpeg',
     name: 'Julia Leda',
     designation: 'President of young pirates of Europe',
     milestone: 'European ingetration, political democracy and participation of youths through online as her major concern. Leda\'s report outlining potential changes to EU copyright law was approved by the parliament in July. ',
@@ -60,7 +60,7 @@ const speakerarr = [
 
   {
     id: 6,
-    image: './assets/keynote_6.jpeg',
+    image: './Assets/keynote_6.jpeg',
     name: 'Ryan Merkley',
     designation: 'CEO of creative commons, Ex-COO of the Mozilla foundation',
     milestone: 'Ryan had been leading open-source projects at the mozilla foundation such as the open-source movement.',
