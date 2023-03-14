@@ -12,6 +12,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="modal-menu">
+        <i class="fa-solid fa-xmark"></i>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./index.html">Program</a></li>
+            <li><a href="./index.html">Join</a></li>
+            <li><a href="./index.html">Sponsor</a></li>
+            <li><a href="./index.html">News</a></li>
+            <li><a href="./index.html">CC Campaign</a></li>
+        </ul>
+    </div>
     <div class="wrapper">
         <header>
             <div class="first-line">
@@ -51,73 +63,79 @@
             </div>
             <div class="program-black">
                 <h2>Main Program</h2>
-                <hr class="short-rule">
-                <div class="program-card">
-                    <img src="./Assets/icon-lecture.svg" alt="lecture icon" class="icon-size" title="lecture icon">
-                    <h3>Lecture</h3>
-                    <p>Listen to the speakers from various countries about the messages of sharing and opening. </p>
-                </div>
+                <hr class="short-rule hide">
 
-                <div class="program-card">
-                    <img src="./Assets/icon-exhibition.svg" alt="exhibition icon" class="icon-size" title="exhibition icon">
-                    <h3>CC Exhibition</h3>
-                    <p>Appreciate various creations applying CC license of artists, organised from the University of Ilorin. </p>
-                </div>
+                <div class="program-card-flex">
 
-                <div class="program-card">
-                    <img src="./Assets/icon-forum.svg" alt="forum icon" class="icon-size" title="forum icon">
-                    <h3>Forum</h3>
-                    <p>Have the time to share your thoughts and opinions with experts for each topic </p>
-                </div>
+                    <div class="program-card">
+                        <img src="./Assets/icon-lecture.svg" alt="lecture icon" class="icon-size" title="lecture icon">
+                        <h3>Lecture</h3>
+                        <p>Listen to the speakers from various countries about the messages of sharing and opening. </p>
+                    </div>
+    
+                    <div class="program-card">
+                        <img src="./Assets/icon-exhibition.svg" alt="exhibition icon" class="icon-size plus" title="exhibition icon">
+                        <h3>CC Exhibition</h3>
+                        <p>Appreciate various creations applying CC license of artists, organised from the University of Ilorin. </p>
+                    </div>
+    
+                    <div class="program-card">
+                        <img src="./Assets/icon-forum.svg" alt="forum icon" class="icon-size" title="forum icon">
+                        <h3>Forum</h3>
+                        <p>Have the time to share your thoughts and opinions with experts for each topic </p>
+                    </div>
+    
+                    <div class="program-card">
+                        <img src="./Assets/icon-workshop.svg" alt="workshop icon" class="icon-size" title="workshop icon">
+                        <h3>Workshop</h3>
+                        <p>Attempt creating your own work using open source license rather than just watching</p>
+                    </div>
+    
+                    <div class="program-card">
+                        <img src="./Assets/icon-ignite.svg" alt="workshop icon" class="icon-size" title="workshop icon">
+                        <h3>CC Ignite</h3>
+                        <p>Attempt creating your own work using open source license rather than just watching</p>
+                    </div>
 
-                <div class="program-card">
-                    <img src="./Assets/icon-workshop.svg" alt="workshop icon" class="icon-size" title="workshop icon">
-                    <h3>Workshop</h3>
-                    <p>Attempt creating your own work using open source license rather than just watching</p>
-                </div>
-
-                <div class="program-card">
-                    <img src="./Assets/icon-ignite.svg" alt="workshop icon" class="icon-size" title="workshop icon">
-                    <h3>CC Ignite</h3>
-                    <p>Attempt creating your own work using open source license rather than just watching</p>
                 </div>
 
                 <button type="button" id="join">Join 225th Inaugural</button>
+                <div class="link"><a href="./index.html">SEE THE WHOLE PROGRAM </a></div>
 
             </div>
             <div class="speakers">
-                <h2>Featured Speakers</h2>
-                <hr class="short-rule">
-
-                <div class="speaker-card">
-                    <div class="speaker-img">
-                        <img src="./Assets/keynote_1.jpeg" alt="keynote_1" title="Yochai Benkler">
-                    </div>
-                    <div class="speaker-info">
-                        <h3>Yochai Benkler</h3>
-                        <h4><em> Berkman Professor of Enterpreneurial Legal Studies at Harvard Law School </em></h4>
-                        <hr>
-                        <h5>Benkler studies commons-based peer production and published his seminal book: The Wealth of Networks in 2006.</h5>
-                    </div>
-                </div>
-
-                <div class="speaker-card">
-                    <div class="speaker-img">
-                        <img src="./Assets/keynote_2.jpeg" alt="keynote_2" title="SohYeong Noh">
-                    </div>
-                    <div class="speaker-info">
-                        <h3>SohYeong Noh</h3>
-                        <h4><em> Director of Art center, Nabi, and a board member of CC Korea</em></h4>
-                        <hr>
-                        <h5>Asthe main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.</h5>
-                    </div>
-                </div>
-
-                <button id="more" type="button">MORE <i class="fa-solid fa-angle-down"></i></button>
+                
             </div>
-        </main>
-    </div>
+        </div>
+    </main>
+
+    <footer class="footer-hide">
+        <div class="support2">
+            <h2>Partner</h2>
+            <hr class="short hide">
+                <div class="partners2">
+                    <img src="./Assets/support_mozilla.png" alt="Mozilla logo" title="Mozilla Logo" class="air">
+                    <img src="./Assets/support_google.png" alt="Google logo" title="Google Logo" class="air">
+                    <img src="./Assets/support_Naver.png" alt="Naver logo" title="Naver Logo" class="air">
+                    <img src="./Assets/support_daumkakao.png" alt="Daumkakao logo" title="DaumKakao Logo" class="air">
+                    <img src="./Assets/support_airbnb.png" alt="Airbnb logo" title="Airbnb Logo" class="air">
+                </div>
+            </div>
+
+            <div class="footnote">
+
+                <div class="col4">
+                    <img class="mobile2" src="./Assets/creative-logo-black-korea.png" alt="cc logo">
+                </div>
+                <div class="col5">
+                    <p>2015 Creative Commons Korea</p>
+                    <p>Some Rights Reserved</p>
+                </div>
+
+            </div>
+           
+    </footer>
     
-    <script src="./index.js" type="module"></script>
+    <script src="./myscript.js" type="module"></script>
 </body>
 </html>

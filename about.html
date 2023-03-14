@@ -12,6 +12,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="modal-menu">
+        <i class="fa-solid fa-xmark"></i>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./index.html">Program</a></li>
+            <li><a href="./index.html">Join</a></li>
+            <li><a href="./index.html">Sponsor</a></li>
+            <li><a href="./index.html">News</a></li>
+            <li><a href="./index.html">CC Campaign</a></li>
+        </ul>
+    </div>
     <div class="wrapper2">
         <header>
             <div class="first-line">
@@ -28,6 +40,7 @@
                 </a>
                 <nav>
                     <ul>
+                        <li><a href="./index.html" id="Home">Home</a></li>
                         <li><a href="./about.html" id="about">About</a></li>
                         <li><a href="#">Program</a> </li>
                         <li><a href="#">Join</a> </li>
@@ -40,17 +53,31 @@
             </div>
         </header>
         <main>
+            
             <i class="fa-sharp fa-solid fa-bars"></i>
             <div class="box1">
+                <a href="./index.html"><i class="fa-solid fa-house"></i></a>
                 <p id="line1">225th Inaugural Lecture</p>
                 <h1 id="line2">UNILORIN SERIES INAUGURAL LECTURE 2023</h1>
+                <hr class="short-rule hide">
                 <p id="line3"><strong> Unilorin Inaugural Lecture brings together the community of experts, academics and activists who comprise the University Affiliate Network from different countries every two years. This year, we hope to expand our invitation list including organisations and individuals.</strong></p>
+
+                <p id="line3-hide"><strong> Unilorin Inaugural Lecture brings together the community of experts, academics and activists who comprise the University Affiliate Network from different countries every two years. <br> This year, we hope to expand our invitation list including organisations and individuals who want to work with us on shared projects that advance the cause of the commons, free culture and open knowledge. <br> So if you're active and engaged in the worlds of open content and knowledge - free software advocates, Wikipedians, Open Knowledge, galleries, libraries, museums, archives, governments and foundations, lawyers, and activists - we hope you'll consider joining us this year to build a sronger, more vibrant commons together.</strong></p>
+
                 <p id="line4">Please contact us per Email for any further questions <br> about Unilorin Inaugural Lecture 2023 <br><a href="mailto:bestbynature2010@gmail.com"><u> bestbynature2010@gmail.com</u></a></p>
+
+                <p id="line4-hide">Please contact us per Email for any further questions about Unilorin Inaugural Lecture 2023 <br><strong><a href="mailto:bestbynature2010@gmail.com"><u> bestbynature2010@gmail.com</u></a></strong></p>
+
             </div>
             <div class="box2">
-                <h2>Unilorin Series <br> Inaugural Lecture 2023 Logo </h2>
-                <hr class="short">
-                <p>The logo of Unilorin Inaugural Lecture 2023 was decided by the senate sitting of 19th December, 2022.</p>
+                <h2 class="lecture-show">Unilorin Series <br> Inaugural Lecture 2023 Logo </h2>
+                
+                <h2 class="lecture-hide">Unilorin Series Inaugural Lecture 2023 Logo </h2>
+                
+                <hr class="short hide">
+                <p class="prize1">The logo of Unilorin Inaugural Lecture 2023 was decided by the senate sitting of 19th December, 2022.</p>
+                
+                <p class="prize2">The logo of Unilorin Inaugural Lecture 2023 was decided by the senate sitting of 19th December, 2022. After online public voting and Selection Committee Judging process, the logo from Prof. Agip won the prize. After consultation with Mr. Ayeni, we optimised the prize-winning-logo for this year's Inaugural Lecture as follows:</p>
 <!-- THe logo at the middle -->
                 <div class="logo2">
                     <div class="logo2a"> <img src="./Assets/Aishatu-Gobir-Pix.webp" alt="Main Speaker" title="Main Speaker"> </div>
@@ -65,11 +92,15 @@
             </div>
 
             <div class="box3">
-                <h2>See the past Lectures</h2>
-                <hr class="short">
-                <p>Take a look at the last two Inaugural Lectures which took place in the University Auditorium</p>
-                <img src="Assets/keynote_10.jpeg" alt="previous lecture" title="previous lecture">
-                <img src="Assets/keynote_6.jpeg" alt="previous lecture" title="previous lecture">
+                <h2 class= "lecture-show">See the past Lectures</h2>
+                <h2 class="lecture-hide">See the past Lectures</h2>
+                <hr class="short hide">
+                <p class="prize1">Take a look at the last two Inaugural Lectures which took place in the University Auditorium</p>
+                <p class="prize2">Take a look at the last two Inaugural Lectures which took place in the University Auditorium</p>
+                <div class="img-flex">
+                    <img src="Assets/photo_2.PNG" alt="previous lecture" title="previous lecture">
+                <img src="Assets/photo_1.PNG" alt="previous lecture" title="previous lecture">
+                </div>
             </div>
 
             <div class="support">
@@ -82,20 +113,21 @@
                         <img src="./Assets/support_daumkakao.png" alt="Daumkakao logo" title="DaumKakao Logo" class="air">
                         <img src="./Assets/support_airbnb.png" alt="Airbnb logo" title="Airbnb Logo" class="air">
                     </div>
-        </main>
-    </div>
+                </div>
+            </main>
     <footer>
         <div class="col2">
-            <img src="./Assets/logo_creative_commons.png" alt="cc logo">
+            <img class="mobile" src="./Assets/creative-logo-black.png" alt="cc logo">
+            
+            <img class="desktop" src="./Assets/creative-logo.png" alt="cc logo">
         </div>
-        <div class="col2">
+        <div class="col3">
             <p>2015 Creative Commons Korea</p>
             <p>Some Rights Reserved</p>
         </div>
+       
     </footer>
-    
-    <script src="./index.js" type="module"></script>
+    <div class="speakers speakers-hide"></div>
+    <script src="./myscript.js" type="module"></script>
 </body>
 </html>
-
-<!--  -->
