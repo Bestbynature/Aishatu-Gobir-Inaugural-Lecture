@@ -181,6 +181,12 @@ header { display: none; }
   padding: 1rem;
   width: 100%;
   margin-bottom: 0.8rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.program-card:hover {
+  transform: translateY(0.8rem);
+  border: 3px solid rgb(255, 255, 255);
 }
 
 .program-card h3 {
@@ -238,6 +244,24 @@ header { display: none; }
 .speaker-img img {
   width: 100%;
   z-index: 5;
+  transition: all 0.5s;
+}
+
+.img-flex img {
+  width: 100%;
+  margin-top: 2rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.logo2a img {
+  width: 100%;
+  box-shadow: 0 0 3px 3px;
+  transition: all 0.5s ease-in-out;
+}
+
+.speaker-img img:hover {
+  transform: scale(1.4);
+  box-shadow: 0 0 3px 5px rgba(255, 81, 42, 0.75);
 }
 
 .speaker-info {
@@ -364,26 +388,35 @@ header { display: none; }
   width: 95%;
   margin: 3rem auto;
   display: flex;
+  justify-content: center;
   padding: 1.3rem;
 }
 
 .logo2a {
-  flex-basis: 40%;
+  flex-basis: 70%;
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding-right: 0.5rem;
 }
 
-.logo2a img {
-  width: 100%;
-  height: 80%;
+.logo2a h3 {
+  color: #ec5242;
+  margin-top: 1rem;
+  box-shadow: 0 0 3px 3px;
+}
+
+.logo2a img:hover {
+  transform: scale(1.4);
 }
 
 .logo2b {
-  flex-basis: 60%;
+  flex-basis: 30%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: center;
   padding-left: 0.5rem;
 }
 
@@ -431,9 +464,9 @@ header { display: none; }
   flex-direction: column;
 }
 
-.img-flex img {
-  width: 100%;
-  margin-top: 2rem;
+.img-flex img:hover {
+  transform: translateY(-1rem);
+  box-shadow: 0 0 10px 5px;
 }
 
 .support {
@@ -458,6 +491,13 @@ header { display: none; }
   width: 27%;
   filter: grayscale(100%);
   margin: 1rem 1.3rem 1rem 0;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.air:hover {
+  filter: grayscale(0);
+  transform: rotateZ(45deg);
 }
 
 footer {
@@ -635,9 +675,13 @@ footer {
   }
 
   .logo2 {
-    width: 30%;
-    padding: 1.3rem 4rem 0 4rem;
+    width: 50%;
+    padding: 1.3rem 4rem 1.3rem 4rem;
     height: auto;
+  }
+
+  .logo2a img {
+    width: 50%;
   }
 
   .box3 { padding: 2rem 4.5rem 2rem 15%; }
@@ -680,6 +724,11 @@ footer {
     display: flex;
     justify-content: flex-start;
     width: 50%;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .desktop:hover {
+    filter: invert(100%);
   }
 
   .mobile { visibility: hidden; }
